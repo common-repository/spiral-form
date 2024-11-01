@@ -1,0 +1,169 @@
+h1 {
+    padding: .5em .75em;
+    border: 3px #ccc;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year{
+   height: 24px;
+    font-family :"メイリオ","ＭＳ Ｐゴシック", arial, helvetica, clean, sans-serif;
+}
+#Spiral_form .SP_table{
+ 
+}
+#Spiral_form .form_title{
+
+}
+
+#Spiral_form .form_label {
+    background-color: #c8e1f2;
+    border: 1px solid #c8e1f2;
+    padding: 10px;
+    border-width: 0 1px 1px 0;
+    font-weight: 700;
+    float: left;
+   display: block;
+   width:100%;
+}
+#Spiral_form .required_tr{
+    border: none;
+
+}
+#Spiral_form .form_data {
+
+    background-color: #FFFFFF;
+    padding: 10px;
+    white-space: pre-line;
+    border-width: 0 1px 1px 1px;
+    font-weight: 700;
+    float: left;
+   display: block;
+   width:100%;
+}
+
+#Spiral_form .header_freetext{
+   white-space: pre-line;
+}
+
+#Spiral_form .footer_freetext{
+    white-space: pre-line;
+    clear: both;
+}
+#Spiral_form .footer_freetext_tr{
+   border: none;
+
+}
+
+#Spiral_form select {
+    width: 50%;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-indent: 1em
+    background-size: 20px 10px;
+    background-position: right center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    vertical-align: middle;
+    border: 1px solid #CCC;
+    margin-bottom: 5px;
+}
+
+#Spiral_form .input {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 5px;
+    color: #333333;
+    border: 1px solid #a5cee9;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2) inset;
+    font-size: 108%;
+    text-align: left;
+}
+
+#Spiral_form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #999999;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2) inset;
+    font-size: 108%;
+    text-align: left;
+}
+
+#Spiral_form .submit {
+    height: 42px;
+    margin: 40px 0 40px 0;
+    border: hidden;
+    border-radius: 3px 3px 3px 3px;
+    /* other browser */
+    background: #303030;
+    /* for old webkit */
+    background: -webkit-gradient( linear, left top, left bottom,
+    color-stop(0.00, #606060),
+    color-stop(1.00, #303030));
+    /* for modern browser */
+    background: linear-gradient( to bottom,
+    #606060 0%,
+    #303030 100%);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    font-size: 153.9%;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+}
+
+#Spiral_form .submit:hover {
+    filter: alpha(opacity=90);
+    -ms-filter: alpha(opacity=90);
+    opacity: 0.9;
+    text-align: center;
+    padding: 100%;
+    background-color: red;
+}
+
+.button {
+    border: #FFF 0 bold !important;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#Spiral_form label {
+    display: block;
+}
+
+#Spiral_form .required {
+    background-color: #f4e2e2 !important;
+    padding: 2px;
+    color: red;
+}
+
+#Spiral_form table,
+#Spiral_form tbody,
+#Spiral_form thead,
+#Spiral_form tfoot,
+#Spiral_form tr,
+#Spiral_form th,
+#Spiral_form td {
+    display: block;
+}
+#Spiral_form .form_button {
+    background-color: #519bcd;
+    color: white;
+    width: auto;
+    height: 42px;
+    margin-top: 10px;
+}
+
+#Spiral_form .tdsubmit {
+    text-align: center;
+}
+.readonly{
+    cursor: pointer;
+}
+
+select {
+    box-shadow:none;
+}
+/*end Copy button*/

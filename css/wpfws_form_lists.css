@@ -1,0 +1,42 @@
+/*Form-List css*/
+.wp-list-table .column-title { 
+	width: 18%; 
+	vertical-align: middle; 
+}
+
+.wp-list-table .form-active {
+	border-left: 4px solid #00a0d2;
+}
+
+.row-actions { 
+	position: static !important; 
+}
+
+.wp-list-table .column-shortcode { 
+	width: 45%; vertical-align: middle;
+}
+
+.wp-list-table .column-date { 
+	width: 10%; vertical-align: middle;
+}
+
+.code {
+	vertical-align: middle;
+}
+
+#sh-c1, #sh-c2{
+  display: inline-block;
+  margin-right: 3px; 
+}
+
+.display_select{
+  width: 100px;
+}
+
+.no_db{
+	color: #FF0000;
+	margin: 10px;
+	font-weight: normal;
+}
+
+/*End Form-List css
